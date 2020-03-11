@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />    -->
+    <link rel="stylesheet" href="./assets/css/custom.css" />
+    <link rel="stylesheet" href="./assets/css/kyc.css" />
+
+    <!-- <link rel="stylesheet" href="./assets/main.js"> 
+    -->
+    <!-- Vendor CSS -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link
+      href="assets/fonts/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/fonts/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/magnific-popup/dist/magnific-popup.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/slick/slick.css rel="stylesheet">
+    <title>Nexus Intermediaries</title>
+  </head>
+  <body>
+    <div
+      class="image-container set-full-height"
+      style="background-image: url('./assets/images/img2.jpg')"
+    >
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <span class="text-white">Nexus</span>Insurance
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars mfa-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                       Call Us On 0700000000
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+      <!--   Big container   -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-8 col-sm-offset-2">
+            <!-- Wizard container -->
+            <div class="wizard-container">
+              <div class="card wizard-card" data-color="red" id="wizard">
+                <form action="" method="">
+                  <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
+
+                  <div class="wizard-header">
+                    <h3 class="wizard-title">
+                      Know Your Customer
+                    </h3>
+                    <h5>This information will let us know more about you.</h5>
+                  </div>
+                  <div class="wizard-navigation">
+                    <ul>
+                      <li>
+                        <a href="#details" data-toggle="tab">Intermediary</a>
+                      </li>
+                      <li>
+                        <a href="#captain" data-toggle="tab">Finish up</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="tab-content">
+                    <div class="tab-pane" id="details">
+                      <h4 class="info-text">
+                        What type of intermediary are you?
+                      </h4>
+                      <div class="row justify-content-center">
+                       
+                          <div class="col-sm-4  ">
+                            <div
+                              class="choice"
+                              data-toggle="wizard-radio"
+                              rel="tooltip"
+                              title="You offer, negotiate, and sells policies"
+                            >
+                              <input type="radio" name="job" value="Broker" />
+                              <div class="icon">
+                                <img src="./assets/images/broker.png" alt="" class="choice-icon-image">
+                              </div>
+                              <h6>Broker</h6>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div
+                              class="choice"
+                              data-toggle="wizard-radio"
+                              rel="tooltip"
+                              title="Select this if you identify risk management strategies, handle policy renewals, and track claims"
+                            >
+                              <input type="radio" name="job" value="Agent" />
+                              <div class="icon">
+                                <img src="./assets/images/agent.png" alt="" class="choice-icon-image">
+                              </div>
+                              <h6>Agent</h6>
+                            </div>
+                          </div>
+                        </div>
+                     
+                    </div>
+                    <div class="tab-pane" id="captain">
+                        <div class="container">
+                      <div class="row ">
+                        <div class="col-sm-12">
+                          <h4 class="info-text pt-3">
+                          Almost Done!
+                          </h4>
+                          <div class="col-sm-6 offset-sm-3">
+                            <div class="justify-content-center align-items-center">
+                                <div class="input-group my-3">
+                                    <div class="custom-file">
+                                      <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                                      <label class="custom-file-label" for="inputGroupFile01">Upload Certificate</label>
+                                    </div>
+                                  </div>
+                              
+                                    <div class="form-group label-floating">
+                                    <label class="control-label">Pin Number</label>
+                                    <input
+                                        name="name"
+                                        type="text"
+                                        class="form-control"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                            <h5 class="">Directors:</h5>
+                        </div>
+                       
+                        <div class="col-sm-5 ">
+                                <div class="form-group label-floating">
+                                <label class="control-label">Name</label>
+                                <input
+                                    name="name"
+                                    type="text"
+                                    class="form-control"
+                                />
+                                </div>
+                                <div class="form-group label-floating">
+                                <label class="control-label">Name</label>
+                                <input
+                                    name="name2"
+                                    type="password"
+                                    class="form-control"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="col-sm-5 offset-md-1">
+                                <div class="form-group label-floating">
+                                  <label class="control-label"> Email</label>
+                                  <input
+                                    name="name"
+                                    type="text"
+                                    class="form-control"
+                                  />
+                              </div>
+                                <div class="form-group label-floating">
+                                  <label class="control-label"> Email</label>
+                                  <input
+                                    name="name"
+                                    type="text"
+                                    class="form-control"
+                                  />
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="wizard-footer">
+                    <div class="pull-right">
+                      <input
+                        type="button"
+                        class="btn btn-next btn-fill btn-danger btn-wd"
+                        name="next"
+                        value="Next"
+                      />
+                      <input
+                        type="button"
+                        class="btn btn-finish btn-fill btn-danger btn-wd"
+                        name="finish"
+                        value="Finish"
+                        onclick="location.href='dashboard.html'"
+  
+                      />
+                    </div>
+                    <div class="pull-left">
+                      <input
+                        type="button"
+                        class="btn btn-previous btn-fill btn-default btn-wd"
+                        name="previous"
+                        value="Previous"
+                      />
+
+                      <div class="footer-checkbox">
+                        <div class="col-sm-12">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" name="optionsCheckboxes" />
+                            </label>
+                            Subscribe to our newsletter
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- wizard container -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      </div>
+      <!--  big container -->
+      <footer id="footer" class="footer">
+    
+        <!-- Footer Secondary -->
+        <div class="footer-secondary">
+            <div class="container">
+                <div class="footer-secondary__inner">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="footer-copyright"><a href="_soccer_index.html">&copy Nexus Inc</a> 2019 &nbsp; | &nbsp; All Rights Reserved</div>
+                        </div>
+                        <div class="col-md-8">
+                            <ul class="footer-nav footer-nav--right footer-nav--condensed footer-nav--sm">
+                                <li class="footer-nav__item"><a href="_soccer_index.html">Terms and Conditions</a></li>
+                                <li class="footer-nav__item"><a href="_soccer_features-shortcodes.html">Privacy Policy</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Secondary / End -->
+    </footer>
+  
+
+    <!-- Javascript Files
+	================================================== -->
+    <!-- Core JS -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/core.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <!-- Vendor JS -->
+    <script src="assets/vendor/twitter/jquery.twitter.js"></script>
+
+    <!-- Template JS -->
+
+    <script src="assets/js/custom.js"></script>
+
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  </body>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+  new WOW().init();
+  </script> -->
+  <script></script>
+</html>
